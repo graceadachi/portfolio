@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+  <title>Grace's Projects</title>
+  <style>
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3eef9;
+      color: #000;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 2rem;
+      font-family: 'Gaegu', sans-serif;
+    }
+    .projects {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .project {
+      width: 400px;
+      margin: 1rem;
+      padding: 1rem;
+      border: 2px solid black;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+    .project-title {
+      font-weight: bold;
+      font-size: 1.5rem;
+      margin-top: 1rem;
+    }
+    .project-desc {
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+    .view-btn {
+      border: 1px solid black;
+      padding: 0.5rem 1rem;
+      background: white;
+      cursor: pointer;
+      font-family: monospace;
+    }
+    .view-btn:hover {
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+  <h1>PROJECTS</h1>
+  <div class="projects">
+    <div class="project">
+      <img src="Screenshot 2025-07-18 215308.png" alt="Amazing Grace Quiz Screenshot">
+      <div class="project-title">THE AMAZING GRACE QUIZ</div>
+      <div class="project-desc">
+        Created with HTML, CSS & JavaScript. The Amazing Grace Quiz is a quiz game that quizzes the user on facts about me with the intention on letting the user get to know me. It is a creative way to introduce myself through code.
+      </div>
+     <button class="view-btn" onclick="location.href='https://graciesdesigns.github.io/amazinggracequiz/'">View</button>
+
+    </div>
+
+    <div class="project">
+      <img src="Screenshot 2025-07-23 124445.png" alt="Calculator by Grace Screenshot">
+      <div class="project-title">CALCULATOR BY GRACE</div>
+      <div class="project-desc">
+        Practicing DOM manipulation in JavaScript by building a calculator. I used CSS for the styling and cuteness and HTML for the structure.
+      </div>
+      <button class="view-btn" onclick="location.href='https://graciesdesigns.github.io/gracecalculator/'">View</button>
+    </div>
+
+    <div class="project">
+      <img src="Screenshot 2025-07-24 143048.png" alt="Portfolio by Grace Screenshot">
+      <div class="project-title">PORTFOLIO</div>
+      <div class="project-desc">
+        Built my own personal portfolio with HTML and CSS.
+      </div>
+      <button class="view-btn" onclick="location.href='https://graciesdesigns.github.io/portfolio/'">View</button>
+    </div>
+  </div>
+</body>
+</html>

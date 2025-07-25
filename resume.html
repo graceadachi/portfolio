@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu&display=swap" rel="stylesheet">
+  <title>Grace's Resume</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3eef9;
+;
+      color: #000;
+    }
+    h1 {
+      text-align: center;
+      font-size: 3rem;
+      margin-top: 2rem;
+      font-family: 'Gaegu', sans-serif;
+    }
+    .resume-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+    .resume-container {
+      width: 90%;
+      max-width: 800px;
+      background-color: white;
+      padding: 1rem;
+      border: 1px solid #ccc;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .resume-container iframe {
+      width: 100%;
+      height: 1000px;
+      border: none;
+    }
+    .download-link {
+      text-align: right;
+      width: 90%;
+      max-width: 800px;
+      font-family: monospace;
+      margin-bottom: 1rem;
+    }
+    .download-link a {
+      color: blue;
+      text-decoration: underline;
+    }
+    .pdf-icon {
+      position: absolute;
+      top: 100px;
+      left: 40px;
+    }
+    .pdf-icon img {
+      width: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>RESUME</h1>
+  <div class="resume-section">
+    <div class="download-link">
+      <a href="Grace Adachi Resume1.pdf" download>Download</a>
+    </div>
+    <div class="resume-container">
+      <iframe src="Grace Adachi Resume1.pdf"></iframe>
+    </div>
+  </div>
+</body>
+</html>
