@@ -36,32 +36,35 @@ a:hover {
   color: #834fb0;       
 }
 
-#projectbutton, #resumebutton{
-    background-color:#f3eef9;
-    font-family:'Gaegu', sans-serif;
-    font-weight:700px;
-     font-size:25px;
-      font-style:bold;
-    border: 5px solid indigo;
-    border-radius: 10px;
-    width:200;
-    height:60px;
-    cursor: pointer; 
+#projectbutton, #resumebutton {
+  background-color:#f3eef9;
+  font-family:'Gaegu', sans-serif;
+  font-weight:700px;
+  font-size:25px;
+  font-style:bold;
+  border: 5px solid indigo;
+  border-radius: 10px;
+  width:200;
+  height:60px;
+  cursor: pointer; 
   background-color: #f3eef9;
   padding: 10px 20px;
   transition: all 0.3s ease;
 }
+
 #m1,#m2,#m3,#m4 {
      font-family: 'Gaegu', sans-serif;
      font-weight:300px;
      font-size:25px;
 }
-p,li,a,span{
+
+p,li,a,span {
     font-family:'Courier New', monospace;
      font-weight:200px;
      font-size:18px;
      font-style:bold;
 }
+
 #intro {
 font-family: "Gaegu", sans-serif;
   font-weight: 700;
@@ -70,10 +73,11 @@ font-family: "Gaegu", sans-serif;
   margin-top: 80px;
 }
 
-h1, h2, h3{
+h1, h2, h3 {
      font-family: 'Gaegu', sans-serif;
      
 }
+
 #toolhead{
     line-height:100px;
 }
@@ -89,11 +93,12 @@ h1, h2, h3{
     text-align: left;
 }
 #gracephoto{
-     width: 200px;       
+  width: 200px;       
   height: 200px;      
   border-radius: 50%; 
   object-fit: cover;
   object-position: top;
+  border: 18px solid rgba(255, 255, 255, 0.3); 
 }
 .toolcontainer {
   display: flex;         
@@ -165,7 +170,7 @@ h1, h2, h3{
 @media (max-width: 768px) {
   body {
     padding: 10px;
-    overflow-x: hidden; 
+     overflow-x: hidden; 
   }
 
   .header {
@@ -190,9 +195,9 @@ h1, h2, h3{
     font-size: 1.5rem;
     text-align: center;
   }
-  .aboutme {
+   .aboutme {
     width:300px;
-    height:630px;
+    height:850px;
 
 }
 #intro {
@@ -204,4 +209,21 @@ h1, h2, h3{
   justify-content: center;
   text-align: right;
 } 
+.frontend {
+    width:200px;
+    height:300px;
+
+    
+}
+.design {
+   width:200px;
+    height:300px;
+
+    
+}
+.backend {
+   width:200px;
+    height:300px;
+    
+}
 }
