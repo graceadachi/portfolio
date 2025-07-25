@@ -165,6 +165,7 @@ h1, h2, h3{
 @media (max-width: 768px) {
   body {
     padding: 10px;
+    overflow-x: hidden; 
   }
 
   .header {
@@ -197,4 +198,10 @@ h1, h2, h3{
 #intro {
   margin-top: 150px;
 }
+ .toolheaders {
+  display: flex;         
+  gap: 100px;            
+  justify-content: center;
+  text-align: right;
+} 
 }
