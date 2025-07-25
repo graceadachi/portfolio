@@ -164,8 +164,18 @@ h1, h2, h3 {
     
 }
 #linkedin {
-    width: 40px;
-    height: 40px;
+  padding: 10px 20px;
+  background-color: #0077b5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  font-family: 'Gaegu', sans-serif;
+  font-size:20px;
 }
 @media (max-width: 768px) {
   body {
@@ -213,17 +223,20 @@ h1, h2, h3 {
     width:200px;
     height:300px;
 
-    
 }
 .design {
    width:200px;
     height:300px;
 
-    
+
 }
 .backend {
    width:200px;
     height:300px;
     
+}
+#linkedin {
+    justify-content: center;
+    width:300px;
 }
 }
